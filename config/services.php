@@ -46,8 +46,8 @@ return [
 
     'google' => [
         'captcha' => [
-            'sitekey' => '',
-            'secret' => '',
+            'sitekey' => env('GOOGLE_CAPTCHA_SITE_KEY', ''),
+            'secret' => env('GOOGLE_CAPTCHA_SECRET', ''),
         ]
     ]
 
